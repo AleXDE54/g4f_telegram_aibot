@@ -6,6 +6,8 @@ Using GPT4FREE in Telegram bot
 * ChatGPT4o
 * No API-Key needed!
 
+<a href="https://t.me/asx_aibot">Example Bot</a>
+
 ## Instalation
 1. Get your telegram token
 
