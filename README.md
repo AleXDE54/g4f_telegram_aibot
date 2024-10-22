@@ -1,4 +1,4 @@
-# G4H in TELEGRAM
+# G4F in TELEGRAM
 Using GPT4FREE in Telegram bot
 
 ![example](https://github.com/user-attachments/assets/b23c6b04-1035-4022-86f0-bf22a7d9c85a)
