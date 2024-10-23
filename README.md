@@ -1,4 +1,6 @@
 # G4F in TELEGRAM
+We working for brand new 4.0 version
+
 Using GPT4FREE in Telegram bot
 
 ![example](https://github.com/user-attachments/assets/e3560538-28df-4493-a985-5971ffb556ee)
