@@ -1,12 +1,14 @@
 # G4F in TELEGRAM
 Using GPT4FREE in Telegram bot
 
-![example](https://github.com/user-attachments/assets/b23c6b04-1035-4022-86f0-bf22a7d9c85a)
+![example](https://github.com/user-attachments/assets/e3560538-28df-4493-a985-5971ffb556ee)
 
 * ChatGPT4o
 * No API-Key needed!
 
-<a href="https://t.me/asx_aibot">Example Bot</a>
+<a href="https://t.me/moonlight_aibot">Official aibot</a>
+
+<a href="https://t.me/mnlightAI">Our Telegram</a>
 
 ## Instalation
 1. Get your telegram token
