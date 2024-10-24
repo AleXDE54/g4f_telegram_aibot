@@ -14,7 +14,7 @@
 ## УСТАНОВКА
 1. Получите ваш телеграмм-токен
 
-![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/instalation.gif)
+![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/examples/instalation.gif)
 
 2. Скачайте последнюю версию программы (Для  русского бота нужен архив ru_RU).
 3. Откройте config.py и замените TELEGRAM_BOT_TOKEN на токен вашего бота telegram.
