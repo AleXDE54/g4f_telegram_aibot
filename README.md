@@ -12,7 +12,7 @@ Using GPT4FREE in Telegram bot
 
 <a href="https://t.me/mnlightAI">Our Telegram</a>
 
-## Instalation
+## INSTALATION
 1. Get your telegram token
 
 ![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/instalation.gif)
