@@ -11,7 +11,7 @@
 
 <a href=«https://t.me/mnlightAI»>Наш телеграмм</a>
 
-## Instalation
+## УСТАНОВКА
 1. Получите ваш телеграмм-токен
 
 ![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/instalation.gif)
