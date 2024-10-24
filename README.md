@@ -12,6 +12,8 @@ Using GPT4FREE in Telegram bot
 
 <a href="https://t.me/mnlightAI">Our Telegram</a>
 
+<a href="https://github.com/AleXDE54/g4f_telegram_aibot/blob/main/README_RU.MD">Russian README.MD version</a>
+
 ## INSTALATION
 1. Get your telegram token
 
