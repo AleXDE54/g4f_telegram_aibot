@@ -15,7 +15,7 @@ Using GPT4FREE in Telegram bot
 ## INSTALATION
 1. Get your telegram token
 
-![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/instalation.gif)
+![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/instalation.gif/examples)
 
 2. Download lastest release.
 3. Open config.py file and change TELEGRAM_BOT_TOKEN to your telegram bot token.
