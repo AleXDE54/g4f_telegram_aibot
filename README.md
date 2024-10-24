@@ -45,4 +45,4 @@ pip install -r requirements.txt
 python bot.py
 `
 
-If the command line is empty, you have done everything correctly!
+If you see 'Bot started!' in the command line, you have done everything correctly, check the work of the bot in Telegram
