@@ -1,5 +1,5 @@
 # G4F in TELEGRAM
-We working for brand new 4.0 version
+We working for brand new 5.0 version
 
 Using GPT4FREE in Telegram bot
 
