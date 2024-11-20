@@ -1,4 +1,5 @@
 # G4F in TELEGRAM
+
 We working for brand new 5.0 version
 
 Using GPT4FREE in Telegram bot
@@ -15,29 +16,24 @@ Using GPT4FREE in Telegram bot
 <a href="https://github.com/AleXDE54/g4f_telegram_aibot/blob/main/README_RU.MD">Russian README.MD version</a>
 
 ## INSTALATION
+
 1. Get your telegram token
 
-![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/examples/instalation.gif)
+![install](example/instalation.gif)
 
 2. Download latest release. or clone repository
 
-`
-git clone https://github.com/AleXDE54/g4f_telegram_aibot.git
-`
+`git clone https://github.com/AleXDE54/g4f_telegram_aibot.git`
 
 3. Open config.py file and change TELEGRAM_BOT_TOKEN to your telegram bot token.
-
 4. Install requirements
 
-`
-pip install -r requirements.txt
-`
+`pip install -r requirements.txt`
 
----------
+---
+
 #### Starting!
 
-`
-python bot.py
-`
+`python bot.py`
 
 If you see 'Bot started!' in the command line, you have done everything correctly, check the work of the bot in Telegram

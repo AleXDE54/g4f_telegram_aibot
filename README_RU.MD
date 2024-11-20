@@ -12,11 +12,12 @@
 <a href=«https://t.me/mnlightAI»>Наш телеграмм</a>
 
 ## УСТАНОВКА
+
 1. Получите ваш телеграмм-токен
 
-![install](https://raw.githubusercontent.com/AleXDE54/g4h_telegram_aibot/refs/heads/main/examples/instalation.gif)
+![install](example/instalation.gif)
 
-2. Скачайте последнюю версию программы (Для  русского бота нужен архив ru_RU).
+2. Скачайте последнюю версию программы `git clone https://github.com/AleXDE54/g.git`.
 3. Откройте config.py и замените TELEGRAM_BOT_TOKEN на токен вашего бота telegram.
 
 ### ТРЕБОВАНИЯ:
@@ -29,19 +30,16 @@ g4f
 
 pyTelegramBotAPI
 
----------
+---
 
 или установите из requirements.txt
 
-`
-pip install -r requirements.txt
-`
+`pip install -r requirements.txt`
 
----------
-#### Запуск!
+---
 
-`
-python bot.py
-`
+### Запуск!
+
+`python bot.py`
 
 Если в командной строке вы увидите «Бот запущен!», значит, вы все сделали правильно, проверьте работу бота в Telegram
