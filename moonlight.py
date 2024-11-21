@@ -5,7 +5,7 @@ def ask(prompt) -> str:
 
     response = g4f.ChatCompletion.create(
         model=model,
-        messages=([{"role": "user", "content": serverprompt}] + [{"role": "user", "content": prompt}]),
+        messages=([{"role": "system", "content": serverprompt}] + [{"role": "user", "content": prompt}]),
         stream=True,
     )
 
