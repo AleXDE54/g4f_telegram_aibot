@@ -1,10 +1,10 @@
 import g4f
-from config import serverprompt
+from config import serverprompt, model
 
 def ask(prompt) -> str:
 
     response = g4f.ChatCompletion.create(
-        model="mixtral-8x7b",
+        model=model,
         messages=([{"role": "user", "content": serverprompt}] + [{"role": "user", "content": prompt}]),
         stream=True,
     )

@@ -2,7 +2,7 @@ import g4f
 import telebot
 from googletrans import Translator
 from config import token, serverprompt, language
-from code import ask
+from moonlight import ask
 
 translate = Translator()
 bot = telebot.TeleBot(token, parse_mode=None)
