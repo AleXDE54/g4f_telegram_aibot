@@ -19,22 +19,7 @@
 
 2. Скачайте последнюю версию программы `git clone https://github.com/AleXDE54/g.git`.
 3. Откройте config.py и замените TELEGRAM_BOT_TOKEN на токен вашего бота telegram.
-
-### ТРЕБОВАНИЯ:
-
-Python 3.10.0
-
-PIP
-
-g4f
-
-pyTelegramBotAPI
-
----
-
-или установите из requirements.txt
-
-`pip install -r requirements.txt`
+4. Установите нужные библиотеки`pip install -r requirements.txt`
 
 ---
 
