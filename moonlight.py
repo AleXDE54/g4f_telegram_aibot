@@ -1,5 +1,5 @@
 import g4f
-from config import serverprompt, model, language, token, error400
+from config import serverprompt, model, language, token
 import telebot
 from googletrans import Translator
 bot = telebot.TeleBot(token)
