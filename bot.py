@@ -2,7 +2,7 @@ import g4f
 import telebot
 from googletrans import Translator
 from config import token, serverprompt, language
-from moonlight import ask
+from moonlight import ask, question
 
 translate = Translator()
 bot = telebot.TeleBot(token, parse_mode=None)
@@ -14,11 +14,6 @@ def start_message(message):
 
 @bot.message_handler()
 def ask_bot(message):
-    msg = bot.send_message(message.chat.id, '⏳')
-    bot.send_chat_action(message.chat.id, "typing")
-    question = message.text
-    answer = ask(question)
-    result = translate.translate(answer, dest=language)
-    bot.edit_message_text(chat_id = message.chat.id, message_id = msg.message_id, text = result.text)
+    question(message)
 
 bot.infinity_polling()

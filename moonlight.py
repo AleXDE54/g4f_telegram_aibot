@@ -1,5 +1,6 @@
 import g4f
-from config import serverprompt, model
+from config import serverprompt, model, language
+
 def ask(prompt) -> str:
     response = g4f.ChatCompletion.create(
         model=model,
@@ -10,3 +11,11 @@ def ask(prompt) -> str:
     for message in response:
         ans_message += message
     return ans_message
+
+def question(message):
+    msg = bot.send_message(message.chat.id, '⏳')
+    bot.send_chat_action(message.chat.id, "typing")
+    question = message.text
+    answer = ask(question)
+    result = translate.translate(answer, dest=language)
+    bot.edit_message_text(chat_id = message.chat.id, message_id = msg.message_id, text = result.text)
