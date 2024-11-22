@@ -1,5 +1,10 @@
 import g4f
-from config import serverprompt, model, language
+from config import serverprompt, model, language, token
+import telebot
+from googletrans import Translator
+
+bot = telebot.TeleBot(token)
+translate = Translator()
 
 def ask(prompt) -> str:
     response = g4f.ChatCompletion.create(
