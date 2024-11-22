@@ -1,11 +1,7 @@
-import g4f
 import telebot
-from googletrans import Translator
-from config import token, serverprompt, language
-from moonlight import ask, question
+from config import token, serverprompt
+from moonlight import ask, question, bot
 
-translate = Translator()
-bot = telebot.TeleBot(token, parse_mode=None)
 print('Bot started!')
 
 @bot.message_handler(commands=['start'])
